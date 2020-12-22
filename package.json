@@ -20,6 +20,6 @@
    },
    "scripts": {
       "start": "ts-node src/index.ts",
-      "watch-start": "nodemon src/server.ts"
+      "watch-start": "nodemon src/index.ts"
    }
 }

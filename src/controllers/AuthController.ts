@@ -14,7 +14,7 @@ export default class AuthController {
     
         let user: Users;
         // Check if user exists
-        user = await userRepository.findOne({ where: { userName: username  } });
+        user = await userRepository.findOne({ where: { username  } });
         if (!user) {
             res.status(404).send({message: "Incorrect user or password"});
             return;  
