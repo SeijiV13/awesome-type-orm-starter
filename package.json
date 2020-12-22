@@ -1,0 +1,25 @@
+{
+   "name": "AwesomeTypeORM",
+   "version": "0.0.1",
+   "description": "Awesome project developed with TypeORM.",
+   "devDependencies": {
+      "@types/node": "^8.10.66",
+      "ts-node": "3.3.0",
+      "typescript": "3.3.3333"
+   },
+   "dependencies": {
+      "bcryptjs": "^2.4.3",
+      "body-parser": "^1.19.0",
+      "class-validator": "^0.12.2",
+      "express": "^4.17.1",
+      "http": "0.0.1-security",
+      "jsonwebtoken": "^8.5.1",
+      "mssql": "^4.3.9",
+      "reflect-metadata": "^0.1.13",
+      "typeorm": "^0.2.22"
+   },
+   "scripts": {
+      "start": "ts-node src/index.ts",
+      "watch-start": "nodemon src/server.ts"
+   }
+}
